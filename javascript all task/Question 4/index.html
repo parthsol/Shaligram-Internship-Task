@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Palindrome Checker in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- <h1 style="color: green;">
+        GeeksforGeeks
+    </h1>
+
+    <h4>
+        JavaScript function to find the area of a triangle
+    </h4> -->
+
+
+    <!-- <p>
+        Area of Triangle: <span id="display"></span>
+    </p> -->
+    <div class="main w-100">
+        <div class="container p-lg-5">
+            <div class="row">
+                <div class="col-md-12 col-sm-8">
+                    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+                        <label for="temp">Please enter the temperature you'd like to convert.</label> <br>
+                        <input name="temp" id="temp" type="number" class="form-control ">
+                        <select name="temp_diff" id="temp_diff" class="form-control sel">
+                           <option value="1">°Celsius</option>
+                           <option value="2">°Fahrenheit</option>
+                        </select> <br>
+                        <button onclick="calculateTemp()" class="btn btn-primary">Calculate</button>
+                        <h2 id="resultContainer"></h2>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

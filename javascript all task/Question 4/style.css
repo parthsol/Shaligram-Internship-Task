@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(29, 31, 32);
+}
+
+.main {
+    border: 1px solid crimson;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+body {
+    color: #fff;
+}
+
+form {
+    background-color: #fab1a0;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#tempCalc label {
+    font-size: 30px;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#resultContainer {
+    font-size: 35px;
+}
+
+#tempCalc .btn {
+    margin-top: 5vh;
+}
+
+#tempCalc .sel {
+    width: 20vh;
+}
+
+.center {
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}

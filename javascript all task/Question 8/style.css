@@ -1,0 +1,61 @@
+* {
+    margin: 0
+}
+
+body {
+    background: -webkit-radial-gradient(top left, #90F6FB, #2C3283);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container h1 {
+    color: crimson;
+}
+
+.registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.registartion-form .submit {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-top: 0px;
+    background-color: crimson;
+}
+
+input,
+textarea,
+.datepicker,
+.selectpicker,
+.language {
+    border-radius: 10px;
+}
+
+.submit {
+    margin-left: 100px;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/form.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <form name="Form" onsubmit="return validateForm()" class="w-50">
+        <h2> Form Validation Using Javascript</h2>
+        <div class="box">
+            <label>Full Name</label>
+            <input type="text" name="name" id="name">
+            <div class="error" id="nameErr"></div>
+        </div>
+
+        <div class="box">
+            <label>Password</label>
+            <input type="password" name="password" id="password">
+            <div class="error" id="passwordErr"></div>
+        </div>
+
+        <div class="box">
+            <label>Email Address</label>
+            <input type="text" name="email" id="email">
+            <div class="error" id="emailErr"></div>
+        </div>
+
+        <div class="box">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" maxlength="10" id="mobile">
+            <div class="error" id="mobileErr"></div>
+        </div>
+
+        <div class="box">
+            <label>Country</label>
+            <select name="country" id="country">
+            <option>Select</option>
+            <option>London</option>
+            <option>India</option>
+            <option>America</option>
+        </select>
+            <div class="error" id="countryErr"></div>
+        </div>
+
+        <div class="box">
+            <label>Gender</label>
+            <div class="form-inline" id="gender">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <div class="error" id="genderErr"></div>
+        </div>
+
+        <div class="box">
+            <label>Hobby</label>
+            <div class="form-inline" id="checkbox">
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" name="check1" class="form-check-input" value="Chess" checked>Chess
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" name="check1" class="form-check-input" value="Carom">Carom
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" name="check1" class="form-check-input" value="Online Gaming" >Online Gaming
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" name="check1" class="form-check-input" value="Cricket" >Cricket
+                    </label>
+                </div>
+            </div>
+            <div class="error" id="checkboxErr"></div>
+
+        </div>
+
+        <div class="box">
+            <label>Address</label>
+            <div class="from-inline">
+                <textarea type="text" name="address" id="address" cols="78" rows="5"></textarea>
+                <div class="error" id="addressErr"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="form-inline">
+                <select class="selectpicker" id="selectpicker" name="selectpicker" multiple data-live-search="true">
+                <option>Mustard</option>
+                <option>Ketchup</option>
+                <option>Relish</option>
+              </select>
+
+            </div>
+            <div class="error" id="selectpickerErr"></div>
+        </div>
+
+
+
+        <div class="box">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+
+    <div class="container">
+
+        <div class="box">
+            Full Name:-
+            <div id="printname"></div><br>
+        </div>
+
+        <div>
+            Email Address:-
+            <div id="printemail"></div><br>
+        </div>
+        <div>
+            Mobile Number:-
+            <div id="printmobile"></div><br>
+        </div>
+        <div>
+            Country:-
+            <div id="printcountry"></div><br>
+        </div>
+        <div>
+            Gender:-
+            <div id="printgender"></div><br>
+        </div>
+        <div>
+            Experience:-
+            <div id="printexperience"></div><br>
+        </div>
+        <div>
+            Address:-
+            <div id="printaddress"></div><br>
+        </div>
+        <div>
+            <label>MultiSelect:- </label>
+            <div id="printmulti"></div>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

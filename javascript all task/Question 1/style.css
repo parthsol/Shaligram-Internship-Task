@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(29, 31, 32);
+}
+
+.main {
+    border: 1px solid crimson;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+body {
+    color: #fff;
+}

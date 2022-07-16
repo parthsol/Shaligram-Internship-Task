@@ -1,0 +1,11 @@
+.container {
+    width: 40%;
+    margin: 30vh auto auto auto;
+    border: 1px solid crimson;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.text {
+    color: crimson
+}

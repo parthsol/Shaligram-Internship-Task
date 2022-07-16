@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(29, 31, 32);
+}
+
+.main {
+    border: 1px solid crimson;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+body {
+    color: #fff;
+}
+
+.side1 {
+    display: flex;
+    position: absolute;
+    padding-top: 20vh;
+    padding-left: 10vh;
+}
+
+.side2 {
+    display: flex;
+    position: absolute;
+    padding-top: 20vh;
+    padding-left: 35vh;
+}
+
+.side3 {
+    display: flex;
+    position: absolute;
+    padding-left: 20vh;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 300px solid crimson;
+}
